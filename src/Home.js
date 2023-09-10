@@ -1,7 +1,7 @@
 import currencies from './utils/currencies';
 import React from 'react';
 import { checkStatus, json } from './utils/fetchUtils';
-import CurrencyTable from './CurrencyTable'
+import CurrencyTable from './CurrencyTable';
 
 class Home extends React.Component {
     constructor() {
