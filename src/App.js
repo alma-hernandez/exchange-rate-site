@@ -10,7 +10,7 @@ import CurrencyConverter from './CurrencyConverter';
 
 const App = () => {
   return (
-    <Router basename="exchange-rate-site">
+    <Router>
       <Layout>
       <Switch>
       <Route path="/" exact component={Home} />
